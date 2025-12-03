@@ -1,0 +1,20 @@
+{
+  "attributes": {
+    "title": "Fraudes par pays",
+    "visState": "{\"title\":\"Fraudes par pays\",\"type\":\"pie\",\"params\":{\"type\":\"pie\",\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"isDonut\":false,\"labels\":{\"show\":false,\"values\":true,\"last_level\":true,\"truncate\":100},\"dimensions\":{\"metric\":{\"accessor\":0,\"format\":{\"id\":\"number\"},\"type\":\"vis_dimension\"},\"buckets\":[{\"accessor\":1,\"format\":{\"id\":\"string\"},\"type\":\"vis_dimension\"}]}},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"country\",\"size\":10,\"order\":\"desc\",\"orderBy\":\"1\",\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\"}}]}",
+    "uiStateJSON": "{}",
+    "description": "Distribution des fraudes par pays",
+    "version": 1,
+    "kibanaSavedObjectMeta": {
+      "searchSourceJSON": "{\"index\":\"fraud-alerts*\",\"query\":{\"query\":\"is_fraud:1\",\"language\":\"kuery\"},\"filter\":[]}"
+    }
+  },
+  "references": [
+    {
+      "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+      "type": "index-pattern",
+      "id": "fraud-alerts*"
+    }
+  ],
+  "type": "visualization"
+}

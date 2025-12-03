@@ -1,0 +1,25 @@
+{
+  "attributes": {
+    "title": "Fraud Detection Dashboard",
+    "hits": 0,
+    "description": "Tableau de bord temps réel pour la détection de fraude",
+    "panelsJSON": "[{\"version\":\"8.15.0\",\"size\":[24,15],\"gridData\":{\"x\":0,\"y\":0,\"w\":24,\"h\":15,\"i\":\"1\"},\"panelIndex\":\"1\",\"type\":\"visualization\",\"id\":\"fraud-by-country\",\"embeddableConfig\":{}},{\"version\":\"8.15.0\",\"size\":[24,15],\"gridData\":{\"x\":24,\"y\":0,\"w\":24,\"h\":15,\"i\":\"2\"},\"panelIndex\":\"2\",\"type\":\"visualization\",\"id\":\"fraud-timeline\",\"embeddableConfig\":{}},{\"version\":\"8.15.0\",\"size\":[24,15],\"gridData\":{\"x\":48,\"y\":0,\"w\":24,\"h\":15,\"i\":\"3\"},\"panelIndex\":\"3\",\"type\":\"visualization\",\"id\":\"fraud-amounts\",\"embeddableConfig\":{}},{\"version\":\"8.15.0\",\"size\":[24,15],\"gridData\":{\"x\":0,\"y\":15,\"w\":24,\"h\":15,\"i\":\"4\"},\"panelIndex\":\"4\",\"type\":\"visualization\",\"id\":\"top-countries\",\"embeddableConfig\":{}},{\"version\":\"8.15.0\",\"size\":[24,15],\"gridData\":{\"x\":24,\"y\":15,\"w\":24,\"h\":15,\"i\":\"5\"},\"panelIndex\":\"5\",\"type\":\"visualization\",\"id\":\"payment-methods\",\"embeddableConfig\":{}},{\"version\":\"8.15.0\",\"size\":[24,15],\"gridData\":{\"x\":48,\"y\":15,\"w\":24,\"h\":15,\"i\":\"6\"},\"panelIndex\":\"6\",\"type\":\"search\",\"id\":\"fraud-search\",\"embeddableConfig\":{}}]",
+    "optionsJSON": "{\"darkTheme\":false,\"hidePanelTitles\":false,\"useMargins\":true}",
+    "version": 1,
+    "timeRestore": true,
+    "timeFrom": "now-15m",
+    "timeTo": "now",
+    "refreshInterval": {
+      "pause": false,
+      "value": 10000
+    }
+  },
+  "references": [],
+  "migrationVersion": {
+    "dashboard": "8.0.0"
+  },
+  "coreMigrationVersion": "8.15.0",
+  "type": "dashboard",
+  "updated_at": "2024-01-15T12:00:00.000Z",
+  "created_at": "2024-01-15T12:00:00.000Z"
+}
