@@ -36,19 +36,19 @@ Il simule, traite et analyse des transactions financières pour identifier les a
 - 4GB de RAM minimum
 - Python 3.11 (optionnel, pour développement)
 
-### **Installation en 5 minutes**
+## **Installation en 5 minutes**
 
-# 1. Clonez le repository
+### 1. Clonez le repository
 git clone https://github.com/BrinsiAmal/fraud-detection-project.git
 cd fraud-detection-project
 
-# 2. Démarrez tous les services
+### 2. Démarrez tous les services
 docker-compose up -d
 
-# 3. Vérifiez que tous les services tournent
+### 3. Vérifiez que tous les services tournent
 docker-compose ps
 
-# 4. Accédez aux interfaces
-#    • Kibana : http://localhost:5601
-#    • Spark UI : http://localhost:4040
-#    • Elasticsearch : http://localhost:9200
+### 4. Accédez aux interfaces
+###    • Kibana : http://localhost:5601
+###    • Spark UI : http://localhost:4040
+###    • Elasticsearch : http://localhost:9200
